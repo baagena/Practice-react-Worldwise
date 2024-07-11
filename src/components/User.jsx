@@ -9,7 +9,7 @@ const FAKE_USER = {
 };
 
 function User() {
-  // const { AuthUser, logout } = useAuth();
+  const { logout } = useAuth();
   const user = FAKE_USER;
 
   function handleClick() {
